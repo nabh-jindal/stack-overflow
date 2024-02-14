@@ -1,0 +1,224 @@
+{
+    font-family:'Poppins', sans-serif;
+}
+
+#header{
+    display: flex;
+    flex-direction: row;
+    margin: 15%;
+    margin-top:0px;
+    margin-bottom: 2%;
+    border-bottom: solid grey 1px;
+}
+.heading{
+    height: 30px;
+    box-sizing: border-box;
+
+}
+.head1{
+    margin-right:20px;
+}
+.head1:hover{
+    border:solid 1px rgb(220, 220, 220);
+    background-color:rgb(220, 220, 220) ;
+}
+
+#header h3{
+    margin-top: 5px;
+}
+#header input{
+    width: 700px ;
+    height: 30px;
+    border-radius: 5px;
+    border:solid grey 1px;
+}
+
+#main{
+    display: flex;
+    flex-direction: row;
+    margin: 10vw;
+    margin-top:0px;
+    margin-bottom: 2%;
+}
+
+.main1{
+    /* position: fixed; */
+    margin-right: 10px;
+
+    box-sizing: border-box;
+}
+.main1 ul{
+    list-style: none;
+}
+.main1 h4{
+    margin-right: 20px;
+
+    display: inline;
+}
+.main1 li:hover{
+    cursor: pointer;
+}
+
+.main2{
+    border-left: solid rgb(220, 220, 220);
+    display: flex
+}
+
+.main211{
+    list-style: none;
+    display: flex;
+    gap: 450px;
+
+}
+.main21{
+    width: 850px;
+    box-sizing: border-box;
+
+}
+.main211 h1{
+    text-wrap: nowrap;
+    font-weight:500;
+    font-size: 30px;
+    margin-top: 0;
+    color: black;
+}
+.main211 h3{
+    text-wrap: nowrap;
+    font-weight: 300;
+    font-size: 16px;
+    margin-top: 0;
+    background-color: rgb(97, 141, 254);
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+
+}
+.main211 h3:hover{
+    background-color: blue;
+    cursor: pointer;
+}
+
+.main212{
+    list-style: none;
+    display: flex;
+    justify-content: right;
+
+
+}
+.main212 li{
+    border: 1px solid grey;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 13px;   
+}
+
+.main212 li:hover{
+    cursor: pointer;
+    background-color:rgb(245, 250, 250) ;
+
+}
+.main213{
+    border-top:1px solid grey ;
+    display: flex;
+    flex-direction: ;
+}
+
+.main213a{
+    list-style: none;    
+    margin-right: 20px;
+    justify-content: left;
+}
+.main213ab{
+    border: 0.5px solid ;
+    border-radius: 5px;
+    padding: 1px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.main213ac{
+    color: grey ;
+}
+
+.main213b h2{
+    font-size: 18px;
+    margin-bottom: 2px;
+    font-weight: 400;
+    color: blue;
+    word-break: break-all ;
+}
+.main213ba{
+    display: flex;
+    list-style: none;
+    gap: 10px;
+    margin-top: 0;
+
+}
+.main213ba li{
+    background-color: rgb(193, 235, 249);
+    padding: 2px;
+    font-size: 15px;
+}
+.main22{
+    margin-left: 20px;
+
+}
+.main221{
+    margin-left: 5px;
+    border:1px solid rgb(204, 204, 132);
+
+
+}
+.main221 h3{
+    font-size: 15px;
+    border:1px solid rgb(204, 204, 132) ;
+    background-color: hsl(43,85%,88%);
+    padding: 5px;
+    margin: 0;
+}
+.main221 ul{
+
+    list-style: none;
+    font-size: 13px;
+    background-color: hsl(44, 45%, 94%);
+}
+.main221 li:hover{
+    cursor: pointer;
+}
+
+.footer{
+
+    background-color: black;
+
+
+}
+.foot{
+    color: white;
+    display: flex;
+    margin-left: 10vw;
+}
+.foot1{
+    margin-right: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+}
+.foot1 ul{
+    list-style: none;
+
+    color: rgb(175, 172, 172);
+
+}
+.foot1 li{
+    margin-bottom: 5px;
+}
+.foot li:hover{
+    cursor: pointer;
+    color: white;
+}
+.foot1 h3{
+    font-size: 15px;
+
+}
+.foot1 h3:hover{
+    cursor: pointer;
+}
